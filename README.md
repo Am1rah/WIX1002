@@ -1,2 +1,2 @@
-# template-lab
-Please use this lab template
+## Lab Week 01 
+##### Nor Badrul Anuar Bin Jumaat (WIC180000)
