@@ -6,10 +6,32 @@ public class L02Q03 {
         
         Random num = new Random();
         
-        System.out.println("Input 3 integers.");
+        int max = 60;
         
-        int x, y, z = num.nextInt();
+        int min = 10;
         
-        int a = 
+        System.out.println("Computer chooses 3 integers, x, y, and z.");
+        
+        int x = num.nextInt((max- min)+1);
+        
+        System.out.println("The first integer is " + x);
+        
+        int y = num.nextInt((max- min)+1);
+        
+        System.out.println("The second integer is " + y);
+        
+        int z = num.nextInt((max- min)+1);
+        
+        System.out.println("The last integer is " + z);
+        
+        int a = x + y + z;
+        
+        System.out.println("The sum of those three numbers are " + a);
+        
+        System.out.print("The average of these three equals ");
+        
+        float b = (float) a/3;
+        
+        System.out.printf("%5.2f", b);
     }
 }
