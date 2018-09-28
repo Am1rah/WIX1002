@@ -12,9 +12,13 @@ public class L02Q05 {
         int x = gen.nextInt(10001);
         
         System.out.println("The number you have chosen is " + x);
+         
+        int sum = 0;
         
-        String y = Integer.toString(x);
-        
-        System.out.println(y);
+        while (x > 0) {
+        sum += x % 10;
+        x /= 10;
+}       
+        System.out.println("The sum of all numerals within the number equals " + sum);
     }
 }
